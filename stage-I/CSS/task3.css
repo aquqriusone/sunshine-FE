@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0;}
 body{padding: 20px;}
-.container{padding: 20px;  background: #eee content-box;}
+.container{padding: 20px;  background: #eee padding-box;}
 .container,.team,.description,.personal{border: 1px solid #999;}
 .team,.description,.personal{background-color: #fff;}
 .team{width: 200px; float: left; }
