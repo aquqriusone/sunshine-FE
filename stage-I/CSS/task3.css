@@ -1,0 +1,15 @@
+*{margin: 0; padding: 0;}
+body{padding: 20px;}
+.container{padding: 20px;  background: #eee content-box;}
+.container,.team,.description,.personal{border: 1px solid #999;}
+.team,.description,.personal{background-color: #fff;}
+.team{width: 200px; float: left; }
+.team img{float: left; padding: 20px;}
+.team .name{ float: left; font:14px bold;padding-top: 20px;}
+.description{margin-left: 220px;  overflow: hidden; padding: 20px;}
+h2,p{line-height: 35px;}
+p{text-indent: 2em; }
+h2,p,.name{color: lightpink;}
+.personal{float: right; margin-left:20px;  width: 120px; padding-top: 20px;}
+.personal img{margin:0 20px 20px 20px; border: 1px solid #999;}
+.clearfix:after{content: "."; display: block; clear: both; height: 0; overflow: hidden; visibility: hidden;}
