@@ -1,0 +1,46 @@
+*{margin: 0; padding: 0; font-family: "宋体",serif; box-sizing:border-box;}
+body{background-color: d5d5d5;}
+header{width: 100%; height: 80px; background-color: lightpink; }
+header h1{position: absolute; left: 35px; }
+nav ul li{ display: inline-block; height: 100%; margin: 0 10px; 
+	        color: #000; font-size: 14px;}
+nav ul{text-align: right;height: 80px; line-height: 80px; }
+nav ul .current{color: #808080;}
+article,.picture,aside{padding: 30px; background-color: #fff;
+ 		box-shadow: 3px 3px 5px 2px #808080; margin: 30px auto;}
+article h2{line-height: 40px; color: #000;}
+article h3{line-height: 40px; color: #777;}
+article span{line-height: 40px;color: #aaa;}
+article p{text-indent: 2em; line-height: 30px; color: 5e5e5e;}
+article img{margin: 10px;}
+.picture h3{font:30px/2 bold; color: #000;}
+.picture ul li{display: inline-block; border: 2px solid #ccc; margin-bottom: 15px; margin-left: 30px;}
+figcaption{text-align: center;margin-top: 15px;}
+.picture img{margin: 10px}
+.last ol{margin-left: 40px; margin-bottom: 20px;}
+.last table{width: 100%; margin: 0 auto; border-collapse: collapse;}
+.last table th{background-color: #333;}
+.last table tfoot{background-color: #bbb;}
+aside h2{font: 18px/2 bold; color: #000;}
+aside h2 span{color:a2a2a2; font: 20px bolder;}
+.button #submit{width: 100%;font-size:18px; height:30px; 
+	line-height:30px;text-align: center;background-color: lightblue; 
+	border-radius: 10px;}
+.email,.password,.sex,.city,.hobby,.description{margin: 15px auto;}
+#description{width: 200px;}
+form{font-size:14px; color:#5e5e5e;margin:0 20px 0 20px;}
+.request{margin-left: 115px; color:c4c4c4;}
+.email label,.password label{display:inline-block; width: 110px; 
+	                          text-align: right;}
+footer{width: 100%; height:60px; line-height:60px; text-align:center; background-color: lightpink;}
+.left-box{width: 100%; float: left; margin-left:20px; margin-right: -440px;}
+.left{ margin-right: 440px;}
+.right{ float: right;  width:380px; margin-right: 20px;}
+.clearfix:after{content: "."; display: block; clear: both; height: 0; overflow: hidden; visibility: hidden;}
+
+
+
+
+	     
+
+
